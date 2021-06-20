@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mwinter1/hw10/issues"
   },
-  "homepage": "https://github.com/mwinter1/hw10#readme"
+  "homepage": "https://github.com/mwinter1/hw10#readme",
+  "dependencies": {
+    "inquirer": "^8.1.1"
+  }
 }

@@ -1,0 +1,96 @@
+/* ------------------------------------ *\
+	#VARIABLES
+\* ------------------------------------ */
+:root {
+    --spacing-unit-micro: 6px;
+    --spacing-unit-tiny: 12px;
+    --spacing-unit-small: 18px;
+    --spacing-unit: 24px;
+    --spacing-unit-medium: 48px;
+}
+
+/* ------------------------------------ *\
+	#SELECTORS
+\* ------------------------------------ */
+blockquote, body, button,
+dd, dl
+h1, h2, h3, h4, h5, h6, hr,
+fieldset, figure, form,
+legend,
+ol,
+p, pre, select,
+table, td, th {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+html {
+    background-color: white;
+    box-sizing: border-box;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+/* ------------------------------------ *\
+	#BACKGROUND
+\* ------------------------------------ */
+.bgc-blue      { background-color: steelblue; }
+.bgc-tomato    { background-color: tomato; }
+.bxs-01        { box-shadow: 2px 2px 4px #666666; }
+.f-white       { fill: white; }
+
+
+/* ------------------------------------ *\
+	#BORDER
+\* ------------------------------------ */
+.bdc-gray    { border-color: lightgray; }
+.bdbs-s      { border-bottom-style: solid; }
+.bdls-s      { border-left-style: solid; }
+.bdrs-s      { border-right-style: solid; }
+.bdts-s      { border-top-style: solid; }
+.bdw-1       { border-width: 1px; }
+
+
+/* ------------------------------------ *\
+	#COLOR
+\* ------------------------------------ */
+.c-white    { color: white; }
+
+
+/* ------------------------------------ *\
+	#FLEX
+\* ------------------------------------ */
+.ai-c     { align-items: center; }
+.d-f      { display: flex; }
+.f-1      { flex: 0 0 25%; }
+.fw-w     { flex-wrap: wrap; }
+.jc-c     { justify-content: center; }
+
+
+/* ------------------------------------ *\
+	#FONT
+\* ------------------------------------ */
+.fw-600    { font-weight: 600; }
+.fz-18     { font-size: var(--spacing-unit-small); }
+.fz-24     { font-size: var(--spacing-unit); }
+
+
+/* ------------------------------------ *\
+	#SPACING
+\* ------------------------------------ */
+.h-24    { height: var(--spacing-unit); }
+.m       { margin: var(--spacing-unit); }
+.ml--    { margin-left: var(--spacing-unit-micro); }
+.mt--    { margin-top: var(--spacing-unit-micro); }
+.mt\+    { margin-top: var(--spacing-unit-medium); }
+.p       { padding: var(--spacing-unit); }
+.p-      { padding: var(--spacing-unit-tiny); }
+.w-24    { width: var(--spacing-unit); }
