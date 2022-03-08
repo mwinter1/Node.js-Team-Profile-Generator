@@ -1,2 +1,2 @@
 # hw10
-Homework 10. Completed together in class. 
+Node.js command-line application. Takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. 
